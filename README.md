@@ -18,13 +18,15 @@ source ~/.bash_aliases
 
 Install 3rd party package
 
-Korbit API: https://apidocs.korbit.co.kr/
+- Korbit API: https://apidocs.korbit.co.kr/
 
-Korbit API wrapper:  https://github.com/wisscot/korbit-python
-    -- download and pip install zip file
+- Korbit API wrapper:  https://github.com/wisscot/korbit-python
+    *-- download and pip install zip file*
+    py -m pip install git+https://github.com/wisscot/korbit-python.git
     
-Bitstamp API wrapper: https://github.com/wisscot/bitstamp-python-client
-    -- download or pip install BitstampClient
+- Bitstamp API wrapper: https://github.com/wisscot/bitstamp-python-client
+    *-- download or pip install BitstampClient*
     
-GDAX API wrapper: https://github.com/wisscot/gdax-python
-    -- download and pip install zip file
+- GDAX API wrapper: https://github.com/wisscot/gdax-python
+    *-- download and pip install zip file*
+    py -m pip install git+https://github.com/wisscot/gdax-python.git
