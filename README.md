@@ -24,7 +24,10 @@ Run dropbox in background: setsid ~/.dropbox-dist/dropboxd
     ```
     
 - Bitstamp API wrapper: https://github.com/wisscot/bitstamp-python-client
-    *-- download or pip install BitstampClient*
+    *-- download or *
+    ```sh
+    py -m pip install BitstampClient
+    ```
     
 - GDAX API wrapper: https://github.com/wisscot/gdax-python
     *-- download and pip install zip file*
