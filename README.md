@@ -10,7 +10,7 @@ Run dropbox in background: setsid ~/.dropbox-dist/dropboxd
 ### Install python3 (Ubuntu 17.10 already have it)
 
    ```sh
-   ls -ld .?*     to list hidden files
+   ls -ld .?*     # to list hidden files
    echo 'alias py="python3"' >> ~/.bash_aliases
    source ~/.bash_aliases
    ```
