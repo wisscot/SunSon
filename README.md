@@ -41,7 +41,7 @@ Run dropbox in background: setsid ~/.dropbox-dist/dropboxd
    ```sh
    py -m pip install splinter
    ```
-   -- chrome drive: https://gist.github.com/wisscot/271bb7f8f0c85a06fd39f4aa32c196b9
+   -- Chrome and Chromedriver: https://gist.github.com/wisscot/271bb7f8f0c85a06fd39f4aa32c196b9
    ```sh
    # Versions
    CHROME_DRIVER_VERSION=`curl -sS chromedriver.storage.googleapis.com/LATEST_RELEASE`
