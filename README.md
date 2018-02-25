@@ -2,10 +2,15 @@
 
 ## Ubuntu Config:
 
-Install Dropbox: https://www.dropbox.com/install-linux 
+- Install Dropbox: https://www.dropbox.com/install-linux 
+   ```sh
+   cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
+   ```
 
-Run dropbox in background: setsid ~/.dropbox-dist/dropboxd
-
+- Run dropbox in background: 
+   ```sh
+   setsid ~/.dropbox-dist/dropboxd
+   ```
 
 ### Install python3 (Ubuntu 17.10 already have it)
 
