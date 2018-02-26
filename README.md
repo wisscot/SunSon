@@ -20,7 +20,7 @@
    source ~/.bash_aliases
    
    export PS1="\[\033[1;36m\]\!\[\033[0m\] \[\033[1;36m\]\u\[\033[0m\]:\[\033[1;36m\]\W\[\033[0m\]$ "
-   # add this to ~\.bash_profile in OS X
+   # add this to ~\.bash_profile in OS X and ~\.bashrc to Ubuntu
    ```
 
 ### Install 3rd party package
