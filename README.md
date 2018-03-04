@@ -32,8 +32,8 @@
     ```sh
     py -m pip install git+https://github.com/wisscot/korbit-python.git
     py -m pip uninstall korbit-python    
-    # to uninstall
-    ```
+    
+    ```
     
 - Bitstamp API wrapper: https://github.com/wisscot/bitstamp-python-client
     *-- download or *
