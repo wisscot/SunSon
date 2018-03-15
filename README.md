@@ -22,6 +22,7 @@
    # install pip (Ubuntu)
    sudo apt-get update
    sudo apt install python3-venv python3-pip
+   py -m pip install --upgrade pip
    
    export PS1="\[\033[1;36m\]\!\[\033[0m\] \[\033[1;36m\]\u\[\033[0m\]:\[\033[1;36m\]\W\[\033[0m\]$ "
    # add this to ~\.bash_profile in OS X 
