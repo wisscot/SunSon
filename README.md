@@ -19,6 +19,9 @@
    echo 'alias py="python3"' >> ~/.bash_aliases
    source ~/.bash_aliases
    
+   # install pip (Ubuntu)
+   sudo apt install python3-venv python3-pip
+   
    export PS1="\[\033[1;36m\]\!\[\033[0m\] \[\033[1;36m\]\u\[\033[0m\]:\[\033[1;36m\]\W\[\033[0m\]$ "
    # add this to ~\.bash_profile in OS X 
    export PS1="\[\033[1;36m\]\h\[\033[0m\] \[\033[1;36m\]\u\[\033[0m\]:\[\033[1;36m\]\W\[\033[0m\]$ "
