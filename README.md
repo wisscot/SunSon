@@ -15,7 +15,7 @@
    
    #change timezone
    sudo dpkg-reconfigure tzdata
-   '''
+   ```
 
 ## Dropbox
 
