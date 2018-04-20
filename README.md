@@ -29,7 +29,7 @@
    setsid ~/.dropbox-dist/dropboxd
    ```
 
-### Install python3 (Ubuntu 17.10 already have it)
+## python3 (Ubuntu 17.10 already have it)
 
    ```sh
    # install pip (Ubuntu)
