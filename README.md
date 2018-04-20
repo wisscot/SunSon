@@ -2,6 +2,23 @@
 
 ## Ubuntu Config:
 
+   ```sh
+   ls -ld .?*     # to list hidden files
+   
+   echo 'alias py="python3"' >> ~/.bash_aliases
+   source ~/.bash_aliases
+
+   export PS1="\[\033[1;36m\]\!\[\033[0m\] \[\033[1;36m\]\u\[\033[0m\]:\[\033[1;36m\]\W\[\033[0m\]$ "
+   # add this to ~\.bash_profile in OS X 
+   export PS1="\[\033[1;36m\]\h\[\033[0m\] \[\033[1;36m\]\u\[\033[0m\]:\[\033[1;36m\]\W\[\033[0m\]$ "
+   # add this to ~\.bashrc in Ubuntu
+   
+   #change timezone
+   sudo dpkg-reconfigure tzdata
+   '''
+
+## Dropbox
+
 - Install Dropbox: https://www.dropbox.com/install-linux 
    ```sh
    cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
@@ -15,21 +32,11 @@
 ### Install python3 (Ubuntu 17.10 already have it)
 
    ```sh
-   ls -ld .?*     # to list hidden files
-   
-   echo 'alias py="python3"' >> ~/.bash_aliases
-   source ~/.bash_aliases
-   
    # install pip (Ubuntu)
    sudo apt-get update
    sudo apt install python3-venv python3-pip
    py -m pip install --upgrade pip
-   py -m pip install setuptools
-   
-   export PS1="\[\033[1;36m\]\!\[\033[0m\] \[\033[1;36m\]\u\[\033[0m\]:\[\033[1;36m\]\W\[\033[0m\]$ "
-   # add this to ~\.bash_profile in OS X 
-   export PS1="\[\033[1;36m\]\h\[\033[0m\] \[\033[1;36m\]\u\[\033[0m\]:\[\033[1;36m\]\W\[\033[0m\]$ "
-   # add this to ~\.bashrc in Ubuntu
+   py -m pip install setuptools   
    ```
 
 ### Install 3rd party package
