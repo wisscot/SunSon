@@ -4,14 +4,15 @@
 
    ```sh
    ls -ld .?*     # to list hidden files
+
+   echo 'export PS1="\[\033[1;36m\]\h\[\033[0m\] \[\033[1;36m\]\u\[\033[0m\]:\[\033[1;36m\]\W\[\033[0m\]$ "' >> ~\.bashrc
+   source ~\.bashrc
+   # add this to ~\.bashrc in Ubuntu
+   export PS1="\[\033[1;36m\]\!\[\033[0m\] \[\033[1;36m\]\u\[\033[0m\]:\[\033[1;36m\]\W\[\033[0m\]$ "
+   # add this to ~\.bash_profile in OS X 
    
    echo 'alias py="python3"' >> ~/.bash_aliases
    source ~/.bash_aliases
-
-   export PS1="\[\033[1;36m\]\!\[\033[0m\] \[\033[1;36m\]\u\[\033[0m\]:\[\033[1;36m\]\W\[\033[0m\]$ "
-   # add this to ~\.bash_profile in OS X 
-   export PS1="\[\033[1;36m\]\h\[\033[0m\] \[\033[1;36m\]\u\[\033[0m\]:\[\033[1;36m\]\W\[\033[0m\]$ "
-   # add this to ~\.bashrc in Ubuntu
    
    #change timezone
    sudo dpkg-reconfigure tzdata
