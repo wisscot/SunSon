@@ -61,7 +61,6 @@
     py -m pip install git+https://github.com/wisscot/gdax-python.git
     ```
 
-   ```
 ### Others:
 ```sh
 py -m pip install pymongo
