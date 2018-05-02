@@ -492,8 +492,8 @@ class Sunson:
                 self.open_order[ask_or_bid]['is_filled'] = False
             
         elif status == 'partially_filled':        
-#             if filled_amount < AMOUNT_MIN: filled_amount = AMOUNT_MIN
-#             self.open_order[ask_or_bid]['is_filled'] = False
+            # if filled_amount < AMOUNT_MIN: filled_amount = AMOUNT_MIN
+            # self.open_order[ask_or_bid]['is_filled'] = False
             if filled_amount >= AMOUNT_MIN:
                 self.open_order[ask_or_bid]['is_filled'] = True
             else:
@@ -579,7 +579,7 @@ class Sunson:
             assert amt >= AMOUNT_MIN
             
             for buy_amt in [amt]:
-#             for buy_amt in [AMOUNT_MAX, max(AMOUNT_MIN, self.amount['korbit']['ask']['ask_1']), AMOUNT_MAX]:
+            # for buy_amt in [AMOUNT_MAX, max(AMOUNT_MIN, self.amount['korbit']['ask']['ask_1']), AMOUNT_MAX]:
                 
                 amount = {'buy': buy_amt, 'sell': None}
                 price = self.bithumb_public.eqv_price(amount) # float
@@ -611,7 +611,7 @@ class Sunson:
             assert amt >= AMOUNT_MIN
 
             for sell_amt in[amt]:    
-#             for sell_amt in[AMOUNT_MAX, max(AMOUNT_MIN, self.amount['korbit']['bid']['bid_1']), AMOUNT_MAX]:    
+            # for sell_amt in[AMOUNT_MAX, max(AMOUNT_MIN, self.amount['korbit']['bid']['bid_1']), AMOUNT_MAX]:    
                 
                 amount = {'buy': None, 'sell': sell_amt}
                 price = self.bithumb_public.eqv_price(amount)
@@ -1106,7 +1106,7 @@ def run(SS):
             print('updating open order status done')
             
             if SS.is_open_order_filled(side): # fully/partially filled 
-#                 SS.compensate(side)
+                # SS.compensate(side)
                 SS.retreat(side) 
             
             else:
@@ -1143,9 +1143,9 @@ def run(SS):
         pprint.pprint(SS.balance)
         # print('open_order = ')
         # pprint.pprint(SS.open_order)
-#         print('bithumb ob = ')
-#         pprint.pprint(SS.bithumb_public.ob['data']['asks'][0])
-#         pprint.pprint(SS.bithumb_public.ob['data']['bids'][0])
+        # print('bithumb ob = ')
+        # pprint.pprint(SS.bithumb_public.ob['data']['asks'][0])
+        # pprint.pprint(SS.bithumb_public.ob['data']['bids'][0])
         print()
         # debug: sys.exit(1)
             
