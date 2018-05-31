@@ -4,7 +4,7 @@
 
    ```sh
    sudo apt-get update
-   sudo apt-get install make
+   sudo apt-get install make gcc wget
    
    ls -ld .?*     # to list hidden files
 
@@ -28,7 +28,11 @@
    wget http://download.redis.io/redis-stable.tar.gz
    tar xvzf redis-stable.tar.gz
    cd redis-stable
+   cd deps
+   make hiredis lua jemalloc linenoise
+   cd ..
    make
+   make install
    ```
 
 ## Dropbox
