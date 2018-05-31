@@ -3,7 +3,8 @@
 ## Ubuntu Config:
 
    ```sh
-   
+   sudo apt-get update
+   sudo apt-get install make
    
    ls -ld .?*     # to list hidden files
 
@@ -18,6 +19,15 @@
    
    #change timezone
    sudo dpkg-reconfigure tzdata
+   ```
+## Redis
+   https://redis.io/topics/quickstart
+   Linux:
+   ```sh
+   wget http://download.redis.io/redis-stable.tar.gz
+   tar xvzf redis-stable.tar.gz
+   cd redis-stable
+   make
    ```
 
 ## Dropbox
