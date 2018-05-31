@@ -4,7 +4,7 @@
 
    ```sh
    sudo apt-get update
-   sudo apt-get install make gcc wget
+   sudo apt-get install make gcc wget tcl
    
    ls -ld .?*     # to list hidden files
 
