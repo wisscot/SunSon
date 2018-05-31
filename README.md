@@ -22,6 +22,7 @@
    ```
 ## Redis
    https://redis.io/topics/quickstart
+   
    Linux:
    ```sh
    wget http://download.redis.io/redis-stable.tar.gz
