@@ -3,6 +3,8 @@
 ## Ubuntu Config:
 
    ```sh
+   
+   
    ls -ld .?*     # to list hidden files
 
    echo 'export PS1="\[\033[1;36m\]\h\[\033[0m\] \[\033[1;36m\]\u\[\033[0m\]:\[\033[1;36m\]\W\[\033[0m\]$ "' >> ~\.bashrc
