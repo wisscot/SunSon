@@ -3,6 +3,9 @@
 ## Ubuntu Config:
 
    ```sh
+   apt update
+   apt install python3-venv python3-pip
+   
    ls -ld .?*     # to list hidden files
 
    echo 'export PS1="\[\033[1;36m\]\h\[\033[0m\] \[\033[1;36m\]\u\[\033[0m\]:\[\033[1;36m\]\W\[\033[0m\]$ "' >> ~\.bashrc
@@ -33,9 +36,6 @@
 ## python3 (Ubuntu 17.10 already have it)
 
    ```sh
-   # install pip (Ubuntu)
-   sudo apt-get update
-   sudo apt install python3-venv python3-pip
    py -m pip install --upgrade pip
    py -m pip install setuptools   
    ```
