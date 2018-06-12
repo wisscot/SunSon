@@ -76,6 +76,7 @@
 - GDAX API wrapper: https://github.com/wisscot/gdax-python
     *-- download and pip install zip file*
     ```sh
+    py -m pip install https://github.com/danpaquin/gdax-python
     py -m pip install git+https://github.com/wisscot/gdax-python.git
     ```
 
