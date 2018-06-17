@@ -20,7 +20,7 @@
    #change timezone
    sudo dpkg-reconfigure tzdata
    ```
-## Redis
+## Redis - Server
    http://sharadchhetri.com/2015/07/05/install-redis-3-0-from-source-on-ubuntu-14-04-centos-7-rhel-7/
    Linux:
    ```sh
@@ -84,4 +84,5 @@
 ```sh
 py -m pip install pymongo
 py -m pip install ccxt
+py -m pip install redis
 ```
