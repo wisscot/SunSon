@@ -3,8 +3,8 @@
 ## Ubuntu Config:
 
    ```sh
-   sudo apt-get update
-   sudo apt-get install make gcc wget tcl
+   sudo apt update
+   sudo apt install make gcc wget tcl
    
    ls -ld .?*     # to list hidden files
 
