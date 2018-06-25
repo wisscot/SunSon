@@ -15,6 +15,7 @@
    # add this to ~\.bash_profile in OS X 
    
    echo 'alias py="python3"' >> ~/.bash_aliases
+   echo 'alias sr="screen -R"' >> ~/.bash_aliases
    source ~/.bash_aliases
    
    #change timezone
