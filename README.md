@@ -55,8 +55,8 @@
    # install pip (Ubuntu)
    sudo apt-get update
    sudo apt install python3-venv python3-pip
-   py -m pip install --upgrade pip
-   py -m pip install setuptools   
+   sudo python3 -m pip install --upgrade pip
+   sudo python3 -m pip install setuptools   
    ```
 
 ### Install 3rd party package
@@ -64,26 +64,26 @@
 - Korbit API wrapper:  https://github.com/wisscot/korbit-python
     *-- download and pip install zip file*
     ```sh
-    py -m pip install git+https://github.com/wisscot/korbit-python.git
-    py -m pip uninstall korbit-python   # to uninstall
+    sudo python3 -m pip install git+https://github.com/wisscot/korbit-python.git
+    sudo python3 -m pip uninstall korbit-python   # to uninstall
     ```
     
 - Bitstamp API wrapper: https://github.com/wisscot/bitstamp-python-client
     *-- download or *
     ```sh
-    py -m pip install BitstampClient
+    sudo python3 -m pip install BitstampClient
     ```
     
 - GDAX API wrapper: https://github.com/wisscot/gdax-python
     *-- download and pip install zip file*
     ```sh
-    py -m pip install git+https://github.com/danpaquin/gdax-python.git
-    py -m pip install git+https://github.com/wisscot/gdax-python.git
+    sudo python3 -m pip install git+https://github.com/danpaquin/gdax-python.git
+    sudo python3 -m pip install git+https://github.com/wisscot/gdax-python.git
     ```
 
 ### Others:
 ```sh
-py -m pip install pymongo
-py -m pip install ccxt
-py -m pip install redis
+sudo python3 -m pip install pymongo
+sudo python3 -m pip install ccxt
+sudo python3 -m pip install redis
 ```
