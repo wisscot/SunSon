@@ -53,7 +53,7 @@
 
    ```sh
    # install pip (Ubuntu)
-   sudo apt-get update
+   sudo apt update
    sudo apt install python3-venv python3-pip
    sudo python3 -m pip install --upgrade pip
    sudo python3 -m pip install setuptools   
