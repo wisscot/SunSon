@@ -57,10 +57,9 @@
    sudo apt install python3-venv python3-pip
    sudo python3 -m pip install --upgrade pip
    sudo python3 -m pip install setuptools   
-   
+   ```   
    install python3.6 for f string:
    http://ubuntuhandbook.org/index.php/2017/07/install-python-3-6-1-in-ubuntu-16-04-lts/   
-   ```
 
 ### Install 3rd party package
 
